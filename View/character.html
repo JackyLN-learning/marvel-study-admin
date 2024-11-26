@@ -15,7 +15,7 @@
         const urlParams = new URLSearchParams(window.location.search);
         const characterId = urlParams.get('id');
 
-        fetch(`http://localhost:3000/characterDetail`)
+        fetch(`http://localhost:3000/api/characterDetail`)
             .then(response => response.json())
             .then(data => {
 
