@@ -1,5 +1,5 @@
 // List Characters
-fetch('http://localhost:3000/api/characterList')
+fetch('http://localhost:3000/api/character/characterList')
     .then(response => response.json())
     .then(data => {
         const characters = data;
